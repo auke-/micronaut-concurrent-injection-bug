@@ -10,14 +10,14 @@
   <parent>
     <groupId>io.micronaut</groupId>
     <artifactId>micronaut-parent</artifactId>
-    <version>3.5.1</version>
+    <version>3.5.1</version> <!-- works with 3.4.4 -->
   </parent>
 
   <properties>
     <packaging>jar</packaging>
     <jdk.version>17</jdk.version>
     <release.version>17</release.version>
-    <micronaut.version>3.5.1</micronaut.version>
+    <micronaut.version>3.5.1</micronaut.version> <!-- works with 3.4.4 -->
     <micronaut.runtime>netty</micronaut.runtime>
     <exec.mainClass>injection.bug.Application</exec.mainClass>
   </properties>
